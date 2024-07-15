@@ -72,6 +72,28 @@ mylist = list(["pro", False, 23, "john"])
 print(mylist)
 
 
+# Tuples
+
+mytuple = tuple(('john', 27, True))
+
+anothertuple = (3, 6, 9, 1, 7, 7)
+
+print(mytuple)
+print(type(mytuple))
+print(type(anothertuple))
+
+newlist = list(mytuple)
+newlist.append('lekan')
+newtuple = tuple(newlist)
+
+print(newtuple)
+
+(one, three, *hey) = anothertuple
+print(one)
+print(three)
+print(hey)
+
+print(anothertuple.count(7))
 
 
 
